@@ -1,39 +1,60 @@
 
-*{
-    box-sizing: border-box;
-}
 body{
     width: 100%;
 }
-nav ul li {
+header nav ul li {
     display: inline-block;
 }
 header nav ul{
     float:right;
-    margin: right 50px;;
+    margin-right: 50px;
     margin-top: -100px;
-    
-
 }
-
-
 .listImg{
     position: relative;
 }
 .list{
     position: absolute;
-    bottom: 30px;
     left: 30px;
-    margin-left:120px;
-
+    margin-left: 120px;
+    bottom: 100px;
 }
 .list1{
     float: left;
-} 
-header img {
+}
+header img{
     float: left;
-} 
-
-footer img {
-    
+}
+main section img{
+float: left;
+}
+main section button{
+    position: relative;
+    float:right;
+    right:700px;
+    bottom: 50px;
+}
+footer{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    background-color: rgb(172, 40, 40);
+}
+main ul li{
+    list-style-type: none;
+}
+body header h4{
+    position: relative;
+    top:-20px;
+    left:50px;
+    color: gray;
+}
+header h1{
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+}
+main h5{
+    color:gray;
 }
